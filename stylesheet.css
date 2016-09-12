@@ -1,0 +1,35 @@
+body {
+	font: 16px Arial, Sans-Serif;
+}
+
+h1 {
+	font: 24px Arial, Sans-Serif;
+}
+
+h2 {
+	font: 16px Arial, Sans-Serif;
+}
+
+#mid-region {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.resume-section {
+	flex-basis: 150px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.section-content {
+	min-width: 300px;
+}
+
+.resume-subsection {
+	flex-basis: 150px;
+}
+
+.section-content-title {
+	min-width: 300px;
+}
