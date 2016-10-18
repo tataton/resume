@@ -1,94 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>Prime Academy Application: ResumÃ©, T. Andrew Taton</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <title>Prime Academy Homework, Week 1: Resumé, T. Andrew Taton</title>
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
-
-<!--
-      One of my goals was to use the flexbox CSS style (and its wrap setting) to help me organize the Education and Employment sections with varying browser width. (Say, to make the page display differently on a phone vs. a computer screen.)  I'm pretty sure I'm using the right, syntactically, but I need to think more about what it is I'm actually trying to do. This is where I am so far.
--->
-
   <body>
-    <div id="top-region">
-      <div id="contact-info">
-        <h1>T. Andrew Taton</h1>
-        2389 Greenbrier Circle<br>
-        Little Canada, MN 55117<br>
-        (651) 600-6189<br>
-        <br>
-      </div>
-<!--
-      <div id="gratuitous-photo">
-      Will put a photo of me here if I feel I have time. And if I think anyone wants to see that.
-      </div>
--->
-    </div>
-
-    <div id="mid-region">
-      <div class="resume-section">
-        Objective:
-      </div>
-      <div class="section-content">
+    <header>
+      <img src="tatonpic.jpg" alt="T. Andrew Taton photo" height="150" width="150">
+      <h1>T. Andrew Taton</h1>
+      <p>2389 Greenbrier Circle</p>
+      <p>Little Canada, MN 55117</p>
+      <p>(651) 600-6189</p>
+    </header>
+    <main>
+      <section id="objective">
+        <h2>Objective:</h2>
         <p>Career scientist, expert in scientific and technical research and in the education of college students, preparing for a career change. I am looking to become a programmer, and then a manager and/or instructor of programmers, in education and training. Learning to program will make this possible.</p>
-      </div>
-    </div>
-    <div id="mid-region">
-      <div class="resume-section">
-        Education:
-      </div>
-      <div class="section-content">
-        Ph.D. in Chemistry, Harvard University, 1998.<br />
-        B.S. in Chemistry, Yale University, 1992.
-      </div>
-    </div>
-    <br>
-    <div id="mid-region">
-      <div class="resume-section">
-        Employment:
-      </div>
-    </div>
-    <div id="mid-region">
-      <div class="resume-subsection">
-        2008-present:
-      </div>
-      <div class="section-content-title">
-        Associate Professor of Chemistry (with tenure), University of Minnesota.
-      </div>
-    </div>
-    <div id="mid-region">
-      <div class="resume-subsection">
-        2001-2008:
-      </div>
-      <div class="section-content-title">
-        Assistant Professor of Chemistry, University of Minnesota.
-      </div>
-    </div>
-    <div id="mid-region">
-      <div class="section-content">
-        <ul>
-          <li>Led research group of up to 10 graduate student and postdoctoral researchers. Applied for federal funding, prepared and submitted research publications and reports, gave scientific talks at host universities and national meetings. Supervised 9 Ph.D. candidates to degree completion.</li>
-          <li>Invented and developed new chemical technologies in materials science and organic chemistry; kept abreast of technology trends to propose novel materials.</li>
-          <li>Taught undergraduate- and graduate-level courses in chemistry, with class sizes ranging from 10-300 students. (Public teaching reviews available at <a href="http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1062308">www.ratemyprofessors.com</a>.) Used web and online course content to enhance learning outcomes.</li>
-        </ul>
-      </div>
-    </div>
-    <div id="mid-region">
-      <div class="resume-subsection">
-        1998-2001:
-      </div>
-      <div class="section-content-title">
-        Postdoctoral Associate, Northwestern University.
-      </div>
-    </div>
-    <div id="mid-region">
-      <div class="section-content">
-        <ul>
-          <li>Invented methods of DNA sequence testing using novel, nanoparticle materials.</li>
-          <li>Helped start a company--Nanosphere, Inc. (NASDAQ: NSPH)--dedicated to commercializing these methods.</li>
-        </ul>
-      </div>
-    </div>
+      </section>
+      <section id="education">
+        <h2>Education:</h2>
+        <p>Ph.D. in Chemistry, Harvard University, 1998.<br>
+        B.S. in Chemistry, Yale University, 1992.</p>
+      </section>
+      <section id="employment">
+        <h2>Employment:</h2>
+        <section class="employment-period">
+          <section class="period-block">
+            <h3>2008-present:</h3>
+            <h4>Associate Professor of Chemistry (with tenure), University of Minnesota.</h4>
+          </section>
+          <section class="period-block">            
+            <h3>2001-2008:</h3>
+            <h4>Assistant Professor of Chemistry, University of Minnesota.</h4>
+          </section>
+          <ul>
+            <li>Led research group of up to 10 graduate student and postdoctoral researchers. Applied for federal funding, prepared and submitted research publications and reports, gave scientific talks at host universities and national meetings. Supervised 9 Ph.D. candidates to degree completion.</li>
+            <li>Invented and developed new chemical technologies in materials science and organic chemistry; kept abreast of technology trends to propose novel materials.</li>
+            <li>Taught undergraduate- and graduate-level courses in chemistry, with class sizes ranging from 10-300 students. (Public teaching reviews available at <a href="http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1062308">www.ratemyprofessors.com</a>.) Used web and online course content to enhance learning outcomes.</li>
+          </ul>
+        </section>
+        <section class="employment-period">
+          <h3>1998-2001:</h3>
+          <h4>Postdoctoral Associate, Northwestern University.</h4>
+            <ul>
+              <li>Invented methods of DNA sequence testing using novel, nanoparticle materials.</li>
+              <li>Helped start a company&mdash;Nanosphere, Inc. (NASDAQ: NSPH)&mdash;dedicated to commercializing these methods.</li>
+            </ul>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <a href="mailto:thomas.andrew.taton@gmail.com"><img src="emailthumb.png" alt="E-Mail me" height="18"></a>
+    </footer>
+
   </body>
 </html>
